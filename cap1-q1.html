@@ -1,0 +1,112 @@
+<!doctype html>
+<html lang="en">
+  
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Driving</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-aFq/bzH65dt+w6FI2ooMVUpc+21e0SRygnTpmBvdBgSdnuTN7QbdgL+OapgHtvPp" crossorigin="anonymous">
+    <script src="java/jav.js"></script>
+ </head>
+  <body>
+  
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="index.html">Home</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse justify-content-between" id="navbarNav">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="lcd.html">LCD</a>
+              </li>
+              <li class="nav-item active" >
+                <a class="nav-link" href="repair.html">Phone Repair</a>
+              </li>
+              <li class="nav-item active">
+                <a class="nav-link" href="acc.html">Phone Accessories</a>
+              </li>
+            </ul>
+            
+          </div>
+        </div>
+    </nav>
+    <div class=" container bg-body-secondary mt-4 p-4 gy-5">
+        <div class="row justify-content-between">
+            <div class="col">
+                <img  src="img/previous.png" onclick="location.href = 'cap1-q1.html';" alt="portuguese" height="42">
+            </div>
+            <div class="col">
+              <p class="text-center">Question 1/2</p>
+            </div>
+            <div class="col ">
+                <img class="float-end" onclick="location.href = 'cap1-q2.html';" src="img/next.png" alt="portuguese" height="42">
+            </div>
+        </div>
+        <div class="row justify-content-center">
+            <div class="col">
+              <hr>
+            </div>
+        </div>
+
+        <div class="row justify-content-center">
+            <div class="col">
+              <h1>Vulnerable road users</h1>
+              <p>You're on a country road. What should you expect to see coming towards you on your side of the road?</p>
+              <p>Select <b>ONE</b> answer</p>
+            </div>
+        </div>
+
+        <div class="row " style = "padding-top: 1%;">
+            <div class="col">
+                <button type="button" id = "btn1" class="btn btn-outline-secondary " style="width: 100%;" onclick="wrong(1,3)">Motorcycles</button>
+            </div>
+        </div>
+
+        <div class="row " style = "padding-top: 1%;">
+            <div class="col">
+                <button type="button" id = "btn2" class="btn btn-outline-secondary " style="width: 100%;" onclick="wrong(2,3)">Bicycles</button>
+            </div>
+        </div>
+
+        <div class="row " style = "padding-top: 1%;">
+            <div class="col">
+                <button type="button" id = "btn3" class="btn btn-outline-secondary " style="width: 100%;" onclick="right(3)" >Pedestrians</button>
+            </div>
+        </div>
+
+        <div class="row " style = "padding-top: 1%;">
+            <div class="col">
+                <button type="button" id = "btn4" class="btn btn-outline-secondary " style="width: 100%;" onclick="wrong(4,3)">Horse Riders</button>
+            </div>
+        </div>
+
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/js/bootstrap.bundle.min.js" integrity="sha384-qKXV1j0HvMUeCBQ+QVp7JcfGl760yU08IQ+GpUo5hlbpg51QRiuqHAJz8+BrxE/N" crossorigin="anonymous"></script>
+  </body>
+  <footer>
+    <div class=" container bg-body-secondary mt-4 p-4 gy-5">
+      <div class="row ">
+          <div class="col">
+            <h3> Visit Our Store </h3>
+            <p>Located conveniently in AV DOM NUNO ALVARES PEREIRA N2-3ESQ, our store welcomes you to bring in your damaged phone or explore our range of accessories in person. 
+              Our friendly staff will assist you with any inquiries and guide you through our services. </p>
+          </div>
+          <div class="col">
+            <h3> Contact Us</h3>
+            <p> Have any questions or need assistance? Our customer support team is ready to help. Reach out to us via phone or email, and we'll get back to you as soon as possible.
+            </p>
+            <p>
+              Phone: 920 545 989
+            </p> 
+            <p>
+              Email: mobiair.ee@gmail.com
+            </p>
+          </div>
+          
+      </div>
+    </div>
+  </footer>
+</html>
